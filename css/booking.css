@@ -1,0 +1,27 @@
+
+
+form{
+     border: 1px solid blue;
+     width: 950px;
+}
+.form-title{
+     color:rgb(106, 106, 245);
+     text-align: center;
+}
+textarea{
+     vertical-align: top;
+     margin-top: 20px;
+
+}
+
+form > label{
+     width: 160px;
+     margin-top: 20px;
+     /* border: 2px blue solid; */
+     padding-left: 10px;
+}
+
+.input-box{
+     height: 100px;
+     padding: 30px ;
+}

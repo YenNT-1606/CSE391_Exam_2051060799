@@ -1,0 +1,98 @@
+body{
+     margin : 0px;
+     padding : 0px;
+     box-sizing: border-box;
+     font-size: 16px;
+}
+
+a{
+     text-decoration: none ;
+}
+
+img{
+     max-width: 100%;
+}
+
+.container-fluid{
+     padding: 0 !important;
+}
+
+/* TOP MENU */
+
+.top-menu__head{
+     background-color: #DC1588;
+
+
+}
+
+.top-menu{
+     display: flex;
+     justify-content: space-between;
+     align-items: center; 
+     height: 40px;
+     color: white;
+}
+
+.top-menu__left{
+     display: flex;
+     align-items: center;
+
+}
+.menu-name{
+     font-size:15px;
+}
+.menu-number{
+     color: #FFFF63;
+     font-weight: 700;
+     font-size: 25px;
+     position: relative;
+     top: -3px;
+}
+
+
+.top-menu__right{
+     align-items: center;
+     display: flex;
+}
+
+.top-menu-item{
+     text-decoration: none;
+     color: white;
+     margin-right: 24px;
+}
+
+.top-menu-item i{
+     margin-right: 5px;
+}
+
+/* MENU */
+
+
+.menu{
+     margin : 10px 0px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}    
+
+.menu a{
+     text-decoration: none;
+     color:  #879AAC;
+     font-weight: 600;
+     margin-right: 28px;
+}
+
+.menu i{
+     font-size: 34px;
+     position: relative;
+     top: 4px;
+}
+
+.banner{
+     height: 600px;
+     width: 100%;
+     background-image: url(/Alien/images/banner.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
